@@ -1,0 +1,20 @@
+@import url(estilo_img.css);
+@import url(login.css);
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+body{
+    background: #2395c2;
+}
+
+header .contenedor{
+    width: 100%;
+    margin: auto;
+    background: #adadad;
+}
+
+.contenedor .interior{
+    margin-top: 10px;
+}

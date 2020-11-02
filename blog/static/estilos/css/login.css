@@ -1,14 +1,15 @@
 .sector-formulario{
     margin: auto;
     font-family: sans-serif;
-    background:#ffffff;
+    background: #1c4e88;
     margin-top: 5%;
-    margin-block-end: 3%;
-    padding-block-end: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    max-width: 650px;
+    margin-block-end: 1%;
+    padding-block-end: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    max-width: 550px;
     border-radius: 10px;
+    opacity: 90%;
 }
 
 .formulario{
@@ -17,20 +18,21 @@
     background: white;
     border-radius: 8px;
     max-width: 530px;
-    opacity: 50;
+    opacity: 100%;
 
 }
 
 .formulario_titulo{
     background: #79787c;
     color: #fff;
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     font-weight: 100;
     font-size: 30px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     border-bottom: 5px solid #79787c;
+    opacity: 90%;
 }
 
 .contenedor-inputs{
@@ -51,6 +53,7 @@
     cursor: pointer;
     font-size: 50px;
     text-align: center;
+    opacity: 80%;
 }
 
 .contenedor-inputs h6{

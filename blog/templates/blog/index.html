@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% extends 'blog/base.html' %}
+
+{% load static %}
+{% block contenido %} 
     <div>
         <h1><a href="#">Animales</a></h1>
     </div>
@@ -24,12 +20,9 @@
             </div>
         </form>
     </div>
-    
-</body>
-<footer>
-    <div></div>
-</footer>
-</html>
+
+{% endblock %}  
+
 
 
 

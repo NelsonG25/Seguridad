@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+
+{% load static %}
+{% block title %}Galería{% endblock %}
+{% block contenido %} 
+    <div class="row">
+        <div class="col-xs-12 col-sm-12  col-md-12 col-lg-12">
+                <h1 class="titulo_galeria">Galería</h1>     
+                <ul class="galeria">
+                </ul>   
+            <script src="{% static 'js/modal.js'  %}"></script>
+        </div>
+    </div> 
+{% endblock %}  

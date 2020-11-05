@@ -1,19 +1,82 @@
-@import url(estilo_img.css);
 @import url(login.css);
+@import url(menu.css);
 @import url(footer.css);
-section{
-    width: 100%;
-    margin-bottom: 25px;
+@import url(principal.css);
+@import url(fontello.css);
+@import url(galeria.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
 }
 
-header .contenedor{
+
+#blog{
+    margin-top: 10%;
+}
+
+@media (min-width:1024px){
+    #blog{
+        margin-top: 80px;
+    }
+}
+
+main{
+    margin-top: 80px;
+}
+
+header{
     width: 100%;
-    margin: auto;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
     background: #1c4e88;
     opacity: 80%;
     color: lightgoldenrodyellow;
 }
 
-.contenedor .interior{
-    margin-top: -1px;
+header .contenedor{
+    display: table;
 }
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+.contenedor h1{
+    width: 20%;
+    float: left;
+}
+
+/* .contenedor ul li a:hover {
+    list-style: none;
+    background:#1c4e88;
+    color: rgb(28, 250, 8);
+    opacity: 200%;
+   }
+
+.contenedor nav ul a{
+    list-style: none;
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+} */

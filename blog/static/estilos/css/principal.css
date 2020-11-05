@@ -1,0 +1,51 @@
+#principal{
+    position: absolute;
+    width: 100%;
+}
+
+#principal .zonas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#principal .regiones{
+    background-color: #1c4e88;
+    opacity: 0.9;
+    float: left;
+    display: block;
+    width: 40%;
+    justify-content: center;
+}
+
+.regiones ul{
+    list-style: none;
+    margin-left: -25px;
+    color: oldlace;
+}
+
+.regiones li:hover{
+    background-color: rgb(73, 118, 190);
+    color: rgb(2, 180, 16);
+    opacity: 1;
+}
+
+#principal .zona_img{
+    display: block;
+    position: relative;
+    margin-left: 50%;
+    width: 40%;
+    z-index: 100;
+    justify-content: center;
+}
+
+#principal article{
+    margin: 15px;
+
+}
+
+#principal img{
+    border-radius: solid rgba(255,255,255,0.8);
+    width: 100%;
+    max-width: 450px;
+}

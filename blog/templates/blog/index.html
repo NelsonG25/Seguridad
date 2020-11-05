@@ -1,25 +1,39 @@
 {% extends 'blog/base.html' %}
 
 {% load static %}
+{% block title %}Principal{% endblock %}
 {% block contenido %} 
-    <div>
-        <h1><a href="#">Animales</a></h1>
+
+<section id="principal">
+    <div class="zonas">
+        <div class="regiones">
+            <ul>
+                <li>Región de Arica y Parinacota</li>
+                <li>Región de Tarapacá</li>
+                <li>Región de Antofagasta</li>
+                <li>Región de Atacama</li>
+                <li>Región de Coquimbo</li>
+                <li>Región de Valparaíso</li>
+                <li>Región Metropolitana de Santiago</li>
+                <li>Región del Libertador General Bernardo O'Higgins</li>
+                <li>Región del Maule</li>
+                <li>Región de Ñuble	</li>
+                <li>Región del Biobío</li>
+                <li>Región de La Araucanía</li>
+                <li>Región de Los Ríos</li>
+                <li>Región de Los Lagos</li>
+                <li>Región de Aysén del General Carlos Ibáñez del Campo</li>
+                <li>Región de Magallanes y de la Antártica Chilena</li>
+            </ul>
+        </div>
+        <div class="zona_img">
+            <article>
+                <img src="">
+            </article>
+        </div>
     </div>
-    <div class="Formulario"> 
-        <p>Login de Usuario</p> 
-        <form action="" method="POST">
-            <div>
-                <div>
-                    <p>Usuario</p> 
-                    <input type="text">
-                </div>
-                <div>
-                    <p>Contraseña</p> 
-                    <input type="password">
-                </div>
-            </div>
-        </form>
-    </div>
+
+</section>
 
 {% endblock %}  
 
